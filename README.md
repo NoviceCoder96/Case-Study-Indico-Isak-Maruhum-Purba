@@ -9,6 +9,7 @@ This test is designed to showcase your ability to create modular, reusable, and 
 S3 (Source) - CodePipeline - CodeBuild - ECS (Fargate)
 
 ## Structure Project
+```text
 terraform/
 ├── main.tf
 ├── variables.tf
@@ -17,6 +18,7 @@ terraform/
     ├── ecs/
     ├── codebuild/
     └── codepipeline/
+```
 
 ## Usage
 terraform init
