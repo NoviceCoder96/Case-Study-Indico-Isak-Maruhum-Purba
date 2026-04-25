@@ -21,8 +21,8 @@ terraform/
 ```
 
 ## Usage
-terraform init
-terraform validate
+- terraform init
+- terraform validate
 
 ## Notes
 AWS credential are required for terraform plan
