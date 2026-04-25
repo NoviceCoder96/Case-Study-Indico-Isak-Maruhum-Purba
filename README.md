@@ -9,14 +9,14 @@ This test is designed to showcase your ability to create modular, reusable, and 
 S3 (Source) - CodePipeline - CodeBuild - ECS (Fargate)
 
 ## Structure Project
-terraform/ 
-├── main.tf 
-├── variables.tf 
-├── terraform.tfvars 
-├── modules/ 
-│ ├── ecs/ 
-│ ├── codebuild/ 
-│ └── codepipeline/
+terraform/
+├── main.tf
+├── variables.tf
+├── terraform.tfvars
+└── modules/
+    ├── ecs/
+    ├── codebuild/
+    └── codepipeline/
 
 ## Usage
 terraform init
